@@ -17,19 +17,19 @@
 body{
     background-color: var(--secondary-clr);
     color:var(--primary-clr);
-}
-.indexPageMainContainer{
     position: relative;
-    background: rgba(0, 0, 0, 0.1);
     height: 100vh;
 }
-.indexPageMainContainer  img{
+body img{
     position: absolute;
     z-index: -1;
     width: 100%;
-    height: max-content;
     height: 100vh;
     object-fit: cover;
+}
+.indexPageMainContainer{
+    background: rgba(0, 0, 0, 0.1);
+    height: 100vh;
 }
 .navContainer{
     padding-top: 2rem;
